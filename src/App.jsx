@@ -6,6 +6,7 @@ import './index.css'
 import Catalog from './pages/Catalog'
 import ProductDetail from './pages/ProductDetail'
 import Quiz from './pages/Quiz'
+import QuizResult from './pages/QuizResult'
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
             <Route path='/catalogo' element={<Catalog/>}/>
             <Route path='/produto/:id' element={<ProductDetail/>}/>
             <Route path='/quiz' element={<Quiz/>}/>
+            <Route path='/quiz/resultado' element={<QuizResult/>}/>
           </Routes>
         </main>
         <Footer/>

@@ -19,7 +19,7 @@ const PERGUNTAS = [
     },
     {
         id: 'torra',
-        pergunta: 'Você prefere cafés mais claros ou mais escuros?',
+        pergunta: 'Como você prefere a torra do seu café?',
         tipo: 'escala',
         opcoes: [
             {label: 'Bem Claro', valor: 1},
@@ -142,13 +142,16 @@ Responda APENAS em JSON válido, sem texto extra, sem markdown, no seguinte form
 {
     "nome": "Nome do café ideal",
     "descricao": "Por que esse café combina com o perfil",
+    "notasDeSabor": "Ex: Chocolate, Caramelo, Frutas vermelhas",
     "torra": número de 1 a 5,
     "intensidade": número de 1 a 5,
     "acidez": número de 1 a 5,
     "amargor": número de 1 a 5,
     "docura": número de 1 a 5,
+    "compatibilidade": número de 0 a 100,
     "metodo": "Método de preparo recomendado",
-    "dica": "Uma dica especial de preparo"
+    "dica": "Uma dica especial de preparo",
+    "outrosCompativeis": ["Nome café 2", "Nome café 3", "Nome café 4", "Nome café 5"]
 }`
                         }
                     ]
