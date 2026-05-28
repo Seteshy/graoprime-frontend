@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import './index.css'
 import Catalog from './pages/Catalog'
 import ProductDetail from './pages/ProductDetail'
+import Quiz from './pages/Quiz'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/catalogo' element={<Catalog/>}/>
             <Route path='/produto/:id' element={<ProductDetail/>}/>
+            <Route path='/quiz' element={<Quiz/>}/>
           </Routes>
         </main>
         <Footer/>

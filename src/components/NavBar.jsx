@@ -7,7 +7,7 @@ const links = [
   { to: '/dashboard', label: 'Dashboard' },
   { to: '/login', label: 'Login' },
   { to: '/registrar', label: 'Register' },
-  { to: '/questionario', label: 'Questionary' }
+  { to: '/quiz', label: 'Quiz' }
 ]
 
 export default function Navbar() {
