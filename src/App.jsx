@@ -3,6 +3,8 @@ import Navbar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import './index.css'
+import Catalog from './pages/Catalog'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
   return(
@@ -12,6 +14,8 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/catalogo' element={<Catalog/>}/>
+            <Route path='/produto/:id' element={<ProductDetail/>}/>
           </Routes>
         </main>
         <Footer/>
